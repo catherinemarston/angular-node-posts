@@ -1,11 +1,11 @@
 <mat-card>
   <form [formGroup]="form" (submit)="createPost()">
     <mat-form-field>
-      <input matInput type="text" formControlName="title" min="3">
+      <input matInput type="text" formControlName="title" placeholder="Title">
       <mat-error *ngIf="form.get('title').invalid">invalid</mat-error>
     </mat-form-field>
     <mat-form-field>
-      <textarea matInput formControlName="content" min="3"></textarea>
+      <textarea matInput formControlName="content" placeholder="Content"></textarea>
       <mat-error *ngIf="form.get('content').invalid">invalid</mat-error>
     </mat-form-field>
     <button mat-raised-button color="primary" type="submit">Create post</button>
