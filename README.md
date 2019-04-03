@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # angular-node-posts
+
+##Steps we've been taking 
+
+Angular hits the same endpoints that we set up in Node.
+Now, it's time to store data in our database. Create cluser on MongoDB. Add Mongoose.
+On MongoDB, you may need to reset the IP address if you're unable to connect 

@@ -38,3 +38,7 @@ yarn.lock
 # System Files
 .DS_Store
 Thumbs.db
+
+#env
+.env
+/backend/images
